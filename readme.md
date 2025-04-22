@@ -1,6 +1,7 @@
 # SnapRender: Background Style Clustering for E-Commerce Product Images
 
 ## 📁 File Structure
+``` Text
 SnapRender/
 ├── data/
 │   └── train/
@@ -32,10 +33,10 @@ SnapRender/
 │   ├── epoch100.png
 │   └── vqvae_without_mask.pth # trained model weights
 │
-├── train_without_mask.ipynb # VQ-VAE training notebook (no masking, full image reconstruction)
+├── train_without_mask.ipynb # VQ-VAE training notebook
 ├── style_cluster.ipynb # Extract latents, perform K-means, visualize with t-SNE
 └── README.md # Project documentation (You are here!)
-
+```
 ## ✅ Usage Notes
 - Make sure your `data/train/` directory follows the correct structure (image and mask naming must match).
   Dataset can be downloaded at: https://github.com/Whileherham/BG60k
