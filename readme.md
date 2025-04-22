@@ -19,11 +19,11 @@ SnapRender/
 │       └── bg60k_masks_4/
 │
 ├── models/
-│   └── cvqvae.py # VQ-VAE model architecture (Encoder, Decoder, Quantizer)
+│   └── cvqvae.py # VQ-VAE model architecture (Encoder, Decoder)
 │
 ├── utils/
 │   ├── dataset_new.py # dataset loader
-│   └── vq_loss.py # vector quantization loss implementation
+│   └── vq_loss.py # Vector Quantizor and its loss implementation
 │
 ├── samples_64_full/
 │   ├── epoch1.png
